@@ -6,7 +6,6 @@ import { featuredProjects } from "@/data/constant";
 import { cropDescription } from "@/lib/utils";
 import { ArrowRight, Globe, Rocket } from "lucide-react";
 import Link from "next/link";
-import React from "react";
 
 export const Projects = () => {
   return (
@@ -30,19 +29,19 @@ export const Projects = () => {
                   <span>Website</span>
                 </Link>
               </Button>
-              <Button asChild className="h-8">
+              <Button asChild className="h-8" variant={"outline"}>
                 <Link href={item.githubLink}>
-                  <Rocket className="text-white" />
+                  <Github />
                   <span>Source</span>
                 </Link>
               </Button>
             </div>
-            <Link
+            {/* <Link
               href={`/case-studies/${item.title}`}
               className="text-xs flex items-center text-blue-500/80 underline"
             >
               See Detail project <ArrowRight className="ml-2 size-4" />
-            </Link>
+            </Link> */}
           </div>
         </Card>
       ))}

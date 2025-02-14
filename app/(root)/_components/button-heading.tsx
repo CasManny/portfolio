@@ -4,5 +4,5 @@ interface ButtonHeadingProps {
   label: string;
 }
 export const ButtonHeading = ({ label }: ButtonHeadingProps) => {
-  return <Button className="h-8">{label}</Button>;
+  return <Button className="h-8 pointer-events-none">{label}</Button>;
 };

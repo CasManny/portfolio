@@ -8,10 +8,10 @@ import WorkExperience from "./_components/work-experience";
 
 export default function Home() {
   return (
-    <main className="w-full">
+    <main className="w-full max-w-7xl mx-auto">
       <div className="container">
-        <div className="max-w-2xl mx-auto mt-10">
-          <h1 className="text-7xl ">Hi, I'm Sabastine</h1>
+        <div className="max-w-2xl mx-auto sm:py-28">
+          <h1 className="text-7xl">Hi, I'm Sabastine</h1>
           <p>
             Tech Enthusiast turned Software Engineer . I love building things
             and helping people. Very active on Twitter.

@@ -9,7 +9,7 @@ export const ContactMe = () => {
         <ButtonHeading label="Contact" />
         <div className="max-w-lg flex-center flex-col">
           <h1 className="text-5xl my-5 font-extrabold">Get in Touch</h1>
-          <p className="text-balance text-lg">
+          <p className="text-balance text-lg text-center">
             Want to chat? Just shoot me a dm with a
             <Link
               href={"https://x.com/ChukwuAjahsaba"}
@@ -17,7 +17,7 @@ export const ContactMe = () => {
             >
               direct question on X
             </Link>
-            and I'll respond whenever I can. I will ignore all soliciting.
+            and I'll respond whenever I can.
           </p>
         </div>
       </div>

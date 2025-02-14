@@ -7,7 +7,7 @@ export const Wrapper = ({ children }: PropsWithChildren) => {
     <div className="relative">
       <DotPattern
         className={cn(
-          "[mask-image:radial-gradient(800px_circle_at_center,white,transparent)] -z-10"
+          "[mask-image:radial-gradient(900px_circle_at_center,white,transparent)] -z-10"
         )}
       />
       {children}
