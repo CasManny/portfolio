@@ -90,4 +90,7 @@ body {
   .flex-center {
     @apply flex items-center justify-center
   }
+  .heading {
+    @apply text-[30px]/8 sm:text-5xl/8 tracking-tight
+  }
 }

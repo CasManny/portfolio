@@ -2,7 +2,7 @@ import { Heading } from "@/components/heading";
 import { SectionWrapper } from "@/components/section-wrapper";
 import React from "react";
 
-const AboutMe = () => {
+export const AboutMe = () => {
   return (
     <SectionWrapper className="p-10">
       <Heading label="About" />
@@ -20,4 +20,3 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;

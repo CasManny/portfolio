@@ -1,8 +1,8 @@
 import { Heading } from "@/components/heading";
 import { SectionWrapper } from "@/components/section-wrapper";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card } from "@/components/ui/card";
 import { education } from "@/data/constant";
-import Image from "next/image";
 import Link from "next/link";
 
 export const Education = () => {
@@ -15,16 +15,17 @@ export const Education = () => {
             <Card className="p-5">
               <div className="flex justify-between">
                 <div className="flex gap-5">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    width={50}
-                    height={50}
-                    className="rounded-full"
-                  />
+                  <Avatar>
+                    <AvatarImage
+                      src={item.image}
+                      alt={item.title}
+                      className="size-11"
+                    />
+                    <AvatarFallback>F</AvatarFallback>
+                  </Avatar>
                   <div className="">
-                    <h3 className="text-md font-semibold">{item.title}</h3>
-                    <p className="text-sm ">{item.description}</p>
+                    <h3 className="text-sm sm:text-md font-semibold">{item.title}</h3>
+                    <p className="text-xs sm:text-sm ">{item.description}</p>
                   </div>
                 </div>
                 <p className="">{item.year}</p>

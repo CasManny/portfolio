@@ -1,21 +1,20 @@
 import { Heading } from "@/components/heading";
-import { techStack } from "@/data";
-import { Button } from "@/components/ui/button";
+import { SectionWrapper } from "@/components/section-wrapper";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { SectionWrapper } from "@/components/section-wrapper";
+import { techStack } from "@/data";
 
 export const Skills = () => {
   return (
     <SectionWrapper>
       <Heading label="Tech Stack" />
-      <div className="flex justify-between flex-wrap gap-5">
+      <div className="flex flex-wrap gap-5">
         {techStack.map(({ purpose, name, Icon }) => (
-          <TooltipProvider>
+          <TooltipProvider key={name}>
             <Tooltip>
               <TooltipTrigger asChild>
                 <Icon className="size-10" />

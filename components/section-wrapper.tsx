@@ -5,5 +5,5 @@ export const SectionWrapper = ({
   children,
   className,
 }: PropsWithChildren<{ className?: string }>) => {
-  return <div className={cn("p-10 sm:py-20", className)}>{children}</div>;
+  return <div className={cn("p-5 sm:py-20", className)}>{children}</div>;
 };

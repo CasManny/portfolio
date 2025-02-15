@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { featuredProjects } from "@/data/constant";
 import { cropDescription } from "@/lib/utils";
-import { ArrowRight, Globe, Rocket } from "lucide-react";
+import { Globe } from "lucide-react";
 import Link from "next/link";
 
 export const Projects = () => {
@@ -13,7 +13,7 @@ export const Projects = () => {
       {featuredProjects.map((item) => (
         <Card key={item.title} className="bg-white p-5">
           <h3 className="font-semibold mb-5">{item.name}</h3>
-          <p className="text-sm mb-5">{cropDescription(item.details)}</p>
+          <p className="text-xs sm:text-sm mb-5">{cropDescription(item.details)}</p>
           <div className="flex flex-wrap gap-1">
             {item.stack.map((value, index) => (
               <Badge className="text-xs bg-slate-400" key={index}>

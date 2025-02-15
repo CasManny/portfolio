@@ -18,8 +18,8 @@ export const SectionContainer = ({
       <div className="w-full flex items-center justify-center flex-col">
         <div className="flex-center flex-col space-y-5">
           <ButtonHeading label={label} />
-          <h1 className="font-extrabold text-5xl">{title}</h1>
-          <p className="text-center text-xl">{description}</p>
+          <h1 className="font-extrabold heading text-center">{title}</h1>
+          <p className="text-center text-base sm:text-xl">{description}</p>
         </div>
         {children}
       </div>

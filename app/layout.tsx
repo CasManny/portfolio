@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { DotPattern } from "@/components/magicui/dot-pattern";
+import { cn } from "@/lib/utils";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative h-full w-full`}
       >
-        {children}
+        <div className="">{children}</div>
+        <DotPattern
+          className="-z-10"
+          // className={cn(
+          //   "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+          // )}
+        />
       </body>
     </html>
   );

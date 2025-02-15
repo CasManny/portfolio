@@ -1,12 +1,10 @@
 import { Heading } from "@/components/heading";
 import { SectionWrapper } from "@/components/section-wrapper";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card } from "@/components/ui/card";
 import { workExperience } from "@/data/constant";
-import Image from "next/image";
-import Link from "next/link";
-import React from "react";
 
-const WorkExperience = () => {
+export const WorkExperience = () => {
   return (
     <SectionWrapper>
       <Heading label="Work Experience" />
@@ -16,16 +14,17 @@ const WorkExperience = () => {
             <Card className="p-5 hover:scale-110 transition-all duration-300">
               <div className="flex justify-between">
                 <div className="flex gap-5 items-center">
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    width={50}
-                    height={50}
-                    className="rounded-full"
-                  />
+                  <Avatar>
+                    <AvatarImage
+                      src={item.image}
+                      alt={"user"}
+                      className="size-11"
+                    />
+                    <AvatarFallback>F</AvatarFallback>
+                  </Avatar>
                   <div className="">
-                    <h3 className="text-md font-semibold">{item.title}</h3>
-                    <p className="text-sm">{item.role}</p>
+                    <h3 className="text-sm sm:text-md font-semibold">{item.title}</h3>
+                    <p className="text-xs sm:text-sm">{item.role}</p>
                   </div>
                 </div>
                 <p className="">{item.year}</p>
@@ -37,5 +36,3 @@ const WorkExperience = () => {
     </SectionWrapper>
   );
 };
-
-export default WorkExperience;
