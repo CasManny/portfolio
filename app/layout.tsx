@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "chukwusabastine | Nextjs Full stack developer",
+  title: "Chukwu Sabastine | Nextjs Full stack developer",
   description:
     "Tech Enthusiast turned Software Engineer. I love building things and helping people. Very active on Twitter.",
 };

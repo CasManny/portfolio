@@ -1,5 +1,12 @@
 export const education = [
   {
+    image: "/alx.png",
+    title: "ProDev Front-End Development programme",
+    description: "Frontend Engineer (React & React Native)",
+    year: "2025",
+    link: "https://www.alxafrica.com/",
+  },
+  {
     image: "/jsmastery.png",
     title: "Dev Career Accelerator",
     description: "NextJs Full Stack Developer",
@@ -31,16 +38,43 @@ export const education = [
 
 export const workExperience = [
   {
+    image: "/full-blue-bg-small.png",
+    title: "Tech Plus Plus",
+    role: "Frontend Engineer (Intern)",
+    year: "2025",
+    responsibilities: [
+      "Developed and optimized responsive UI components using React, Next.js, and Tailwind CSS.",
+      "Collaborated with designers to translate Figma mockups into pixel-perfect, accessible interfaces.",
+      "Integrated REST APIs for dynamic content rendering and interactive features.",
+      "Implemented reusable component structures to improve development speed and maintainability.",
+      "Tested and debugged UI across browsers and devices to ensure cross-platform compatibility.",
+    ],
+  },
+  {
     image: "/man.svg",
     title: "Freelance Web Developer",
     role: "NextJs Full Stack Developer",
     year: "2023 - present",
+    responsibilities: [
+      "Designed and developed fully responsive web applications for clients across industries.",
+      "Built scalable backends with Next.js API routes, integrated with databases using Prisma and Drizzle ORM.",
+      "Implemented authentication and authorization flows using Clerk and NextAuth.",
+      "Optimized site performance with image optimization, caching strategies, and lazy loading.",
+      "Provided ongoing maintenance, feature updates, and SEO improvements for client projects.",
+    ],
   },
   {
     image: "/codettribe.jpg",
     title: "CodeTribe Tech Community",
     role: "Frontend Development Instructor",
     year: "2024 - present",
+    responsibilities: [
+      "Designed and delivered training sessions on HTML, CSS, JavaScript, and React.js.",
+      "Mentored students through hands-on projects, improving their problem-solving and coding skills.",
+      "Reviewed code and provided constructive feedback to help students adopt best practices.",
+      "Created learning resources, assignments, and live coding demos to enhance understanding.",
+      "Facilitated workshops on modern frontend tools like Tailwind CSS, Redux, and Next.js.",
+    ],
   },
 ];
 
@@ -126,8 +160,10 @@ export const featuredProjects = [
     website: "https://rockstaddy.vercel.app/",
     startDate: "14/09/2024",
     endDate: "28/09/2024",
-    details: "This gamified educational platform is designed to help readers engage with self-help and personal development books by breaking down content into small, manageable chunks. Through interactive challenges, progress tracking, and rewards, the platform makes reading more fun and motivating. The goal is to enhance learning retention and encourage users to complete books while building sustainable habits for personal growth.",
-    problem: "Many readers find it challenging to stay engaged with traditional self-help and personal development books due to their length and dense content, leading to boredom and difficulty in retaining information. This often results in unfinished books and missed learning opportunities. There is a need for an engaging, interactive solution that breaks down book content into manageable chunks and motivates readers to complete their reading journey. By gamifying the reading process, users can stay motivated, track progress, and build lasting habits for personal development.",
+    details:
+      "This gamified educational platform is designed to help readers engage with self-help and personal development books by breaking down content into small, manageable chunks. Through interactive challenges, progress tracking, and rewards, the platform makes reading more fun and motivating. The goal is to enhance learning retention and encourage users to complete books while building sustainable habits for personal growth.",
+    problem:
+      "Many readers find it challenging to stay engaged with traditional self-help and personal development books due to their length and dense content, leading to boredom and difficulty in retaining information. This often results in unfinished books and missed learning opportunities. There is a need for an engaging, interactive solution that breaks down book content into manageable chunks and motivates readers to complete their reading journey. By gamifying the reading process, users can stay motivated, track progress, and build lasting habits for personal development.",
     challenges: [
       "Breaking down book content into meaningful, bite-sized chunks without losing the original context.",
       "Designing a reward system that is motivating yet not distracting.",
@@ -137,7 +173,7 @@ export const featuredProjects = [
       "Learned how to gather and incorporate user feedback effectively.",
       "Developed the ability to manage complex database queries efficiently using Drizzle.",
       "Implemented a Duolingo-like reward system to enhance user engagement on the platform.",
-      "Utilized Convex to implement real-time community interaction features on the platform"
+      "Utilized Convex to implement real-time community interaction features on the platform",
     ],
   },
 ];

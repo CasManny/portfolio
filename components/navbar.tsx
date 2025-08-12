@@ -93,7 +93,7 @@ const DATA = {
 
 export function Navbar() {
   return (
-    <div className="flex flex-col items-center justify-center fixed bottom-5 transform left-1/2 -translate-x-1/2">
+    <div className="flex flex-col items-center justify-center fixed bottom-5 transform left-1/2 -translate-x-1/2 z-50">
         <TooltipProvider>
           <Dock direction="middle">
             {DATA.navbar.map((item) => (
