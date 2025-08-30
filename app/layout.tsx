@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { DotPattern } from "@/components/magicui/dot-pattern";
-import { cn } from "@/lib/utils";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,10 +13,53 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// ✅ Strong SEO Metadata
 export const metadata: Metadata = {
-  title: "Chukwu Sabastine | Nextjs Full stack developer",
+  title: "Chukwu Ajah Sabastine | Frontend Developer & Next.js Engineer",
   description:
-    "Tech Enthusiast turned Software Engineer. I love building things and helping people. Very active on Twitter.",
+    "Portfolio of Chukwu Ajah Sabastine, a frontend developer specializing in Next.js, React, and modern web technologies. I build fast, responsive, and user-friendly web applications.",
+  keywords: [
+    "Chukwu Ajah Sabastine",
+    "Sabastine Ajah",
+    "Frontend Developer",
+    "Next.js Developer",
+    "React Developer",
+    "JavaScript Engineer",
+    "Web Developer Portfolio",
+    "UI Engineer",
+    "Frontend Engineer",
+  ],
+  authors: [{ name: "Chukwu Ajah Sabastine" }],
+  creator: "Chukwu Ajah Sabastine",
+  openGraph: {
+    title: "Chukwu Ajah Sabastine | Frontend Developer",
+    description:
+      "Explore the portfolio of Chukwu Ajah Sabastine, a frontend developer building fast and accessible web applications using Next.js and React.",
+    url: "https://chukwusabastine.vercel.app",
+    siteName: "Sabastine Portfolio",
+    images: [
+      {
+        url: "https://chukwusabastine.vercel.app/og-image.png", 
+        width: 1200,
+        height: 630,
+        alt: "Chukwu Ajah Sabastine Portfolio Preview",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Chukwu Ajah Sabastine | Frontend Developer",
+    description:
+      "Frontend developer skilled in Next.js, React, and modern web development. Check out my portfolio.",
+    creator: "@ChukwuAjahsaba", 
+    images: ["https://chukwusabastine.vercel.app/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  metadataBase: new URL("https://chukwusabastine.vercel.app"),
 };
 
 export default function RootLayout({
@@ -30,13 +72,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative h-full w-full`}
       >
-        <div className="">{children}</div>
-        <DotPattern
-          className="-z-10"
-          // className={cn(
-          //   "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
-          // )}
-        />
+        {/* ✅ Wrap main content in semantic <main> for accessibility + SEO */}
+        <main>{children}</main>
+        <DotPattern className="-z-10" />
       </body>
     </html>
   );
