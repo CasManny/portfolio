@@ -63,19 +63,19 @@ export const workExperience = [
   //     "Provided ongoing maintenance, feature updates, and SEO improvements for client projects.",
   //   ],
   // },
-  {
-    image: "/codettribe.jpg",
-    title: "CodeTribe Tech Community",
-    role: "Frontend Development Instructor",
-    year: "March 2024 - October 2024",
-    responsibilities: [
-      "Designed and delivered training sessions on HTML, CSS, JavaScript, and React.js.",
-      "Mentored students through hands-on projects, improving their problem-solving and coding skills.",
-      "Reviewed code and provided constructive feedback to help students adopt best practices.",
-      "Created learning resources, assignments, and live coding demos to enhance understanding.",
-      "Facilitated workshops on modern frontend tools like Tailwind CSS, Redux, and Next.js.",
-    ],
-  },
+  // {
+  //   image: "/codettribe.jpg",
+  //   title: "CodeTribe Tech Community",
+  //   role: "Frontend Development Instructor",
+  //   year: "March 2024 - October 2024",
+  //   responsibilities: [
+  //     "Designed and delivered training sessions on HTML, CSS, JavaScript, and React.js.",
+  //     "Mentored students through hands-on projects, improving their problem-solving and coding skills.",
+  //     "Reviewed code and provided constructive feedback to help students adopt best practices.",
+  //     "Created learning resources, assignments, and live coding demos to enhance understanding.",
+  //     "Facilitated workshops on modern frontend tools like Tailwind CSS, Redux, and Next.js.",
+  //   ],
+  // },
 ];
 
 export const featuredProjects = [
