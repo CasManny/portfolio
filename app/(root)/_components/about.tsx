@@ -222,7 +222,7 @@ export const AboutMe: React.FC = () => {
                 {techStack.map((tech, index) => (
                   <motion.div
                     key={tech.name}
-                    className="group relative flex flex-col items-center p-4 rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 cursor-pointer"
+                    className="group relative flex flex-col items-center p-4 rounded-xl shadow-sm  transition-all duration-300 cursor-pointer"
                     whileHover={{ scale: 1.05, rotateY: 5 }}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -232,7 +232,7 @@ export const AboutMe: React.FC = () => {
                     {/* <span className="mt-2 text-sm font-semibold text-gray-800">
                       {tech.name}
                     </span> */}
-                    <motion.span className="absolute bottom-2 text-xs text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <motion.span className="absolute hidden bottom-2 text-xs text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity">
                       {tech.purpose}
                     </motion.span>
                   </motion.div>
@@ -270,7 +270,7 @@ export const AboutMe: React.FC = () => {
                   animate={{ scale: [1, 1.1, 1] }}
                   transition={{ duration: 2, repeat: Infinity, delay: 0.5 }}
                 >
-                  20+
+                  3+
                 </motion.div>
                 <div className="text-sm text-gray-600">Projects Completed</div>
               </motion.div>
@@ -279,7 +279,7 @@ export const AboutMe: React.FC = () => {
         </div>
 
         {/* Call to Action */}
-        <motion.div className="mt-16 text-center" variants={itemVariants}>
+        <motion.div className="mt-16 text-center hidden" variants={itemVariants}>
           <motion.div
             className="bg-gradient-to-r from-gray-900 to-black text-white p-8 rounded-2xl shadow-xl"
             whileHover={{

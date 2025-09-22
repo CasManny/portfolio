@@ -16,15 +16,14 @@ export default function Home() {
           <Hero />
           <AboutMe />
           <WorkExperience />
-          <Education />
           <SectionContainer
-            
             label="My Projects"
             title="Check out my latest work"
             description="I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites."
           >
             <Projects />
           </SectionContainer>
+          <Education />
           <ContactMe />
         </div>
       </div>

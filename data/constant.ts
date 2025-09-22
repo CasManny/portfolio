@@ -41,7 +41,7 @@ export const workExperience = [
     image: "/full-blue-bg-small.png",
     title: "Tech Plus Plus",
     role: "Frontend Engineer (Intern)",
-    year: "2025",
+    year: "April 2025 - July 2025",
     responsibilities: [
       "Developed and optimized responsive UI components using React, Next.js, and Tailwind CSS.",
       "Collaborated with designers to translate Figma mockups into pixel-perfect, accessible interfaces.",
@@ -50,24 +50,24 @@ export const workExperience = [
       "Tested and debugged UI across browsers and devices to ensure cross-platform compatibility.",
     ],
   },
-  {
-    image: "/man.svg",
-    title: "Freelance Web Developer",
-    role: "NextJs Full Stack Developer",
-    year: "2023 - present",
-    responsibilities: [
-      "Designed and developed fully responsive web applications for clients across industries.",
-      "Built scalable backends with Next.js API routes, integrated with databases using Prisma and Drizzle ORM.",
-      "Implemented authentication and authorization flows using Clerk and NextAuth.",
-      "Optimized site performance with image optimization, caching strategies, and lazy loading.",
-      "Provided ongoing maintenance, feature updates, and SEO improvements for client projects.",
-    ],
-  },
+  // {
+  //   image: "/man.svg",
+  //   title: "Freelance Web Developer",
+  //   role: "NextJs Full Stack Developer",
+  //   year: "2023 - present",
+  //   responsibilities: [
+  //     "Designed and developed fully responsive web applications for clients across industries.",
+  //     "Built scalable backends with Next.js API routes, integrated with databases using Prisma and Drizzle ORM.",
+  //     "Implemented authentication and authorization flows using Clerk and NextAuth.",
+  //     "Optimized site performance with image optimization, caching strategies, and lazy loading.",
+  //     "Provided ongoing maintenance, feature updates, and SEO improvements for client projects.",
+  //   ],
+  // },
   {
     image: "/codettribe.jpg",
     title: "CodeTribe Tech Community",
     role: "Frontend Development Instructor",
-    year: "2024 - present",
+    year: "March 2024 - October 2024",
     responsibilities: [
       "Designed and delivered training sessions on HTML, CSS, JavaScript, and React.js.",
       "Mentored students through hands-on projects, improving their problem-solving and coding skills.",

@@ -41,7 +41,7 @@ export const WorkExperience = () => {
             <Card className="p-6 border border-gray-100 rounded-xl shadow-sm bg-white">
               <div className="flex justify-between items-center mb-4">
                 <div className="flex gap-5 items-center">
-                  <Avatar className="border border-gray-200">
+                  <Avatar className="border hidden sm:flex border-gray-200">
                     <AvatarImage
                       src={item.image}
                       alt={item.title}
@@ -60,7 +60,7 @@ export const WorkExperience = () => {
               </div>
 
               {item.responsibilities && (
-                <ul className="list-disc list-inside text-lg text-gray-700 space-y-1 mt-2">
+                <ul className="list-disc list-inside text-sm sm:text-lg text-gray-700 space-y-1 mt-2">
                   {item.responsibilities.map((task, index) => (
                     <motion.li
                       key={index}
