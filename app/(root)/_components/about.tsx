@@ -59,7 +59,6 @@ export const AboutMe: React.FC = () => {
     delay: Math.random() * 3,
   }));
 
-
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -161,10 +160,9 @@ export const AboutMe: React.FC = () => {
             </motion.div>
 
             <motion.div
-              className="bg-gray-50 p-6 rounded-2xl border-l-4 border-gray-400 shadow-sm"
+              className="bg-gray-50 p-6 rounded-2xl border-l-4 border-gray-400 "
               whileHover={{
                 scale: 1.02,
-                boxShadow: "0 10px 30px rgba(0,0,0,0.1)",
               }}
               transition={{ duration: 0.3 }}
               variants={itemVariants}
@@ -222,7 +220,7 @@ export const AboutMe: React.FC = () => {
                 {techStack.map((tech, index) => (
                   <motion.div
                     key={tech.name}
-                    className="group relative flex flex-col items-center p-4 rounded-xl shadow-sm  transition-all duration-300 cursor-pointer"
+                    className="group relative flex flex-col items-center p-4  transition-all duration-300 cursor-pointer"
                     whileHover={{ scale: 1.05, rotateY: 5 }}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -279,7 +277,10 @@ export const AboutMe: React.FC = () => {
         </div>
 
         {/* Call to Action */}
-        <motion.div className="mt-16 text-center hidden" variants={itemVariants}>
+        <motion.div
+          className="mt-16 text-center hidden"
+          variants={itemVariants}
+        >
           <motion.div
             className="bg-gradient-to-r from-gray-900 to-black text-white p-8 rounded-2xl shadow-xl"
             whileHover={{

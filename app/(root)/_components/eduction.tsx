@@ -21,7 +21,7 @@ export const Education = () => {
   };
 
   return (
-    <SectionWrapper className="py-16 rounded-3xl">
+    <SectionWrapper className="py-16 rounded-3xl mb-10">
       <motion.div
         className="max-w-5xl mx-auto flex flex-col gap-6"
         variants={container}

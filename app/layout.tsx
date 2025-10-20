@@ -37,14 +37,6 @@ export const metadata: Metadata = {
       "Explore the portfolio of Chukwu Ajah Sabastine, a frontend developer building fast and accessible web applications using Next.js and React.",
     url: "https://chukwusabastine.vercel.app",
     siteName: "Sabastine Portfolio",
-    images: [
-      {
-        url: "https://chukwusabastine.vercel.app/og-image.png", 
-        width: 1200,
-        height: 630,
-        alt: "Chukwu Ajah Sabastine Portfolio Preview",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
@@ -54,7 +46,6 @@ export const metadata: Metadata = {
     description:
       "Frontend developer skilled in Next.js, React, and modern web development. Check out my portfolio.",
     creator: "@ChukwuAjahsaba", 
-    images: ["https://chukwusabastine.vercel.app/og-image.png"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -72,7 +63,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative h-full w-full`}
       >
-        {/* ✅ Wrap main content in semantic <main> for accessibility + SEO */}
         <main>{children}</main>
         <DotPattern className="-z-10" />
       </body>

@@ -1,6 +1,5 @@
 import { Navbar } from "@/components/navbar";
 import { AboutMe } from "./_components/about";
-import { ContactMe } from "./_components/contact-me";
 import { Education } from "./_components/eduction";
 import { Hero } from "./_components/hero";
 import { Projects } from "./_components/projects";
@@ -24,7 +23,7 @@ export default function Home() {
             <Projects />
           </SectionContainer>
           <Education />
-          <ContactMe />
+          {/* <ContactMe /> */}
         </div>
       </div>
     </main>
