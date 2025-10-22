@@ -62,9 +62,7 @@ const Icons = {
 };
 
 const DATA = {
-  navbar: [
-    { href: "#", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "#", icon: HomeIcon, label: "Home" }],
   contact: {
     social: {
       GitHub: {
@@ -74,7 +72,7 @@ const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/chukwu-chukwu-ajah-sabastine",
+        url: "www.linkedin.com/in/chukwu-ajah-sabastine-333b68316",
         icon: Icons.linkedin,
       },
       X: {
