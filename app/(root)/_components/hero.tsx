@@ -143,11 +143,15 @@ export const Hero = () => {
         {/* Static subtitle */}
         <motion.div variants={itemVariants} className="mb-8">
           <p className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            Creative{" "}
-            <span className="text-black font-semibold">Frontend Engineer</span>{" "}
-            building fast, sleek, and user-friendly web experiences. I turn
-            ideas into pixel-perfect, responsive interfaces that help brands
-            stand out and grow.
+            Frontend Engineer passionate about building high-performing,
+            visually engaging web experiences that drive{" "}
+            <strong>user engagement, brand growth, and revenue.</strong> I
+            create sleek, responsive interfaces that{" "}
+            <strong>
+              {" "}
+              conversion rates, strengthen customer trust, and help businesses
+              scale faster.
+            </strong>
           </p>
         </motion.div>
 

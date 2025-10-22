@@ -39,7 +39,7 @@ export const WorkExperience = () => {
             className="transition-all duration-300"
           >
             <Card className="p-6 border border-gray-100 rounded-xl shadow-sm bg-white">
-              <div className="flex justify-between items-center mb-4">
+              <div className="flex flex-col text-left md:flex-row md:justify-between md:items-center mb-4">
                 <div className="flex gap-5 items-center">
                   <Avatar className="border hidden sm:flex border-gray-200">
                     <AvatarImage
@@ -56,7 +56,10 @@ export const WorkExperience = () => {
                     <p className="text-sm text-gray-600">{item.role}</p>
                   </div>
                 </div>
-                <p className="text-sm text-gray-500">{item.year}</p>
+                <div className="">
+                  <p className="text-sm text-gray-500">{item.year}</p>
+                  <p className="text-sm text-gray-500">{item.location}</p>
+                </div>
               </div>
 
               {item.responsibilities && (

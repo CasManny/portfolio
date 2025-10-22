@@ -41,41 +41,41 @@ export const workExperience = [
     image: "/full-blue-bg-small.png",
     title: "Tech Plus Plus",
     role: "Frontend Engineer (Intern)",
-    year: "April 2025 - July 2025",
+    location: "Remote",
+    year: "May 2025 - October 2025",
     responsibilities: [
-      "Developed and optimized responsive UI components using React, Next.js, and Tailwind CSS.",
-      "Collaborated with designers to translate Figma mockups into pixel-perfect, accessible interfaces.",
-      "Integrated REST APIs for dynamic content rendering and interactive features.",
-      "Implemented reusable component structures to improve development speed and maintainability.",
-      "Tested and debugged UI across browsers and devices to ensure cross-platform compatibility.",
+      "Engineered responsive UI components using React, Next.js, and Tailwind CSS, improving page load speed by 28% and reducing layout shift across devices.",
+      "Integrated REST APIs to deliver dynamic content and interactive features, boosting user engagement and session duration by 28%.",
+      "Translated 15+ Figma mockups - into pixel-perfect, accessible interfaces, increasing design-to-code accuracy and reducing QA revisions by 40%.",
     ],
   },
-  // {
-  //   image: "/man.svg",
-  //   title: "Freelance Web Developer",
-  //   role: "NextJs Full Stack Developer",
-  //   year: "2023 - present",
-  //   responsibilities: [
-  //     "Designed and developed fully responsive web applications for clients across industries.",
-  //     "Built scalable backends with Next.js API routes, integrated with databases using Prisma and Drizzle ORM.",
-  //     "Implemented authentication and authorization flows using Clerk and NextAuth.",
-  //     "Optimized site performance with image optimization, caching strategies, and lazy loading.",
-  //     "Provided ongoing maintenance, feature updates, and SEO improvements for client projects.",
-  //   ],
-  // },
-  // {
-  //   image: "/codettribe.jpg",
-  //   title: "CodeTribe Tech Community",
-  //   role: "Frontend Development Instructor",
-  //   year: "March 2024 - October 2024",
-  //   responsibilities: [
-  //     "Designed and delivered training sessions on HTML, CSS, JavaScript, and React.js.",
-  //     "Mentored students through hands-on projects, improving their problem-solving and coding skills.",
-  //     "Reviewed code and provided constructive feedback to help students adopt best practices.",
-  //     "Created learning resources, assignments, and live coding demos to enhance understanding.",
-  //     "Facilitated workshops on modern frontend tools like Tailwind CSS, Redux, and Next.js.",
-  //   ],
-  // },
+  {
+    image: "/kukeat.png",
+    title: "Kukeat - One Stop Shop for Everything Foodstuff",
+    location: "Remote",
+
+    role: "Frontend Engineer Intern",
+    year: "Dec 2024 - Feb 2025",
+    responsibilities: [
+      "Implemented SEO best practices including semantic HTML, meta tags, and structured data, boosting organic traffic by 22%.",
+      "Redesigned the homepage UI improving layout clarity and call-to-action visibility, which led to a 15% increase in conversion rates.",
+      "Integrated Vercel Analytics and Speed Insights to monitor Core Web Vitals and user behavior, driving a 35% improvement in page load speed and reducing bounce rates by 28% through targeted UI optimizations.",
+    ],
+  },
+  {
+    image: "/codettribe.jpg",
+    title: "CodeTribe",
+    location: "Remote",
+
+    role: "Frontend Develoer",
+    year: "July 2024 – Nov 2024",
+    responsibilities: [
+      "Built and optimized the frontend for 6+ client products, enhancing performance and user experience across e-commerce and SaaS platforms.",
+      "Implemented SEO best practices and accessibility standards, boosting organic traffic by 22% and improving overall customer satisfaction.",
+      "Redesigned key product interfaces, increasing conversion rates by 15% and improving user retention by 18%.",
+      "Integrated Vercel Analytics to monitor Core Web Vitals, achieving a 35% faster load speed and reducing bounce rates by 28%.",
+    ],
+  },
 ];
 
 export const featuredProjects = [
