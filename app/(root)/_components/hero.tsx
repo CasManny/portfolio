@@ -146,7 +146,7 @@ export const Hero = () => {
             Frontend Engineer passionate about building high-performing,
             visually engaging web experiences that drive{" "}
             <strong>user engagement, brand growth, and revenue.</strong> I
-            create sleek, responsive interfaces that{" "}
+            create sleek, responsive interfaces that boost{" "}
             <strong>
               {" "}
               conversion rates, strengthen customer trust, and help businesses
