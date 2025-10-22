@@ -72,7 +72,7 @@ const DATA = {
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "www.linkedin.com/in/chukwu-ajah-sabastine-333b68316",
+        url: "https://www.linkedin.com/in/chukwu-ajah-sabastine-333b68316",
         icon: Icons.linkedin,
       },
       X: {
