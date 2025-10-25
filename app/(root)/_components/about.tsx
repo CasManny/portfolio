@@ -1,7 +1,6 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
 import { motion, useInView, Variants } from "framer-motion";
-import { techStack } from "@/data";
+import React, { useRef } from "react";
 import TechStack from "./tech-stack";
 
 interface HeadingProps {

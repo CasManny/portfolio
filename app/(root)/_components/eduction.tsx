@@ -3,7 +3,6 @@
 import { SectionWrapper } from "@/components/section-wrapper";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { education } from "@/data/constant";
-import Link from "next/link";
 import { motion } from "framer-motion";
 
 export const Education = () => {
@@ -37,6 +36,7 @@ export const Education = () => {
           🎓 My Education Journey
         </motion.h2>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10">
         {education.map((item, index) => (
           <motion.div
             key={item.title}
@@ -47,9 +47,7 @@ export const Education = () => {
             }}
             transition={{ duration: 0.3 }}
           >
-            <Link
-              href={item.link || "#"}
-              target="_blank"
+            <div
               className="block rounded-xl p-5 border border-gray-800 hover:border-gray-600 transition-colors"
             >
               <div className="flex justify-between items-center">
@@ -85,9 +83,11 @@ export const Education = () => {
                   {item.year}
                 </motion.span>
               </div>
-            </Link>
+            </div>
           </motion.div>
         ))}
+
+        </div>
       </motion.div>
     </SectionWrapper>
   );

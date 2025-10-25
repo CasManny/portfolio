@@ -2,6 +2,7 @@ export default function TechStack() {
   const techStack = [
     "Next.js (Frontend & Fullstack projects)",
     "Vite/ReactJs",
+    "Firebase",
     "TypeScript",
     "Tailwind CSS",
     "Shadcn UI",
