@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Chukwu Ajah Sabastine | Frontend Developer",
     description:
-      "Explore the portfolio of Chukwu Ajah Sabastine, a frontend developer building fast and accessible web applications using Next.js and React.",
+      "I create sleek, responsive interfaces that boost conversion rates, strengthen customer trust, and help businesses scale faster.",
     url: "https://chukwusabastine.vercel.app",
     siteName: "Sabastine Portfolio",
     locale: "en_US",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "Chukwu Ajah Sabastine | Frontend Developer",
     description:
       "Frontend developer skilled in Next.js, React, and modern web development. Check out my portfolio.",
-    creator: "@ChukwuAjahsaba", 
+    creator: "@ChukwuAjahsaba",
   },
   icons: {
     icon: "/favicon.ico",
