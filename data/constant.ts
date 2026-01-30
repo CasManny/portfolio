@@ -113,7 +113,7 @@ export const featuredProjects = [
       "Improved understanding of managing server state using TanStack Query, including caching, pagination, and query key design.",
       "Learned how to structure large frontend applications using a feature-based architecture for better scalability and maintainability.",
       "Enhanced skills in building accessible, responsive UIs using Shadcn UI and Tailwind CSS.",
-      "Strengthened knowledge of SEO-first frontend development using dynamic metadata and semantic HTML.",
+      "Strengthened knowledge of SEO-first frontend development using dynamic metadata and semantic HTML in the project.",
     ],
   },
 
