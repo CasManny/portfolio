@@ -80,6 +80,44 @@ export const workExperience = [
 
 export const featuredProjects = [
   {
+    title: "padisquare",
+    name: "PadiSquare",
+    description: "A modern multi-vendor marketplace frontend",
+    stack: [
+      "NextJs (App Router)",
+      "Typescript",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "TanStack Query",
+      "Zustand",
+      "Axios",
+      "Zod",
+      "React Hook Form",
+    ],
+    startDate: "01/10/2024",
+    endDate: "15/11/2024",
+    githubLink: "https://github.com/CasManny/padisquare",
+    website: "https://padisquare-taupe.vercel.app/",
+    details:
+      "PadiSquare is a modern multi-vendor marketplace frontend built with Next.js using the App Router architecture. The platform enables vendors to showcase their products while allowing customers to browse vendor storefronts, search and sort products, paginate through listings, and view detailed product information. The application emphasizes performance, scalability, and SEO through the use of Server Components, dynamic metadata generation, and a feature-based architecture.",
+    problem:
+      "Online marketplaces require fast, scalable, and SEO-optimized user interfaces to effectively connect vendors with customers. Many marketplace frontends struggle with poor performance, unstructured state management, and limited SEO support, especially as the number of vendors and products grows. There was a need to design a frontend architecture that could efficiently handle product listings, vendor storefronts, pagination, sorting, and search while maintaining a clean developer experience, strong type safety, and a polished user interface.",
+    challenges: [
+      "Designing a scalable feature-based folder structure that cleanly separates concerns while remaining easy to extend.",
+      "Managing server state efficiently for product listings, pagination, sorting, and search without stale UI or excessive refetching.",
+      "Ensuring optimal SEO and performance using Next.js App Router, Server Components, and dynamic metadata.",
+      "Building a responsive, mobile-first UI that works seamlessly across devices while maintaining accessibility.",
+    ],
+    learnings: [
+      "Gained deeper hands-on experience with the Next.js App Router and the practical use of Server and Client Components.",
+      "Improved understanding of managing server state using TanStack Query, including caching, pagination, and query key design.",
+      "Learned how to structure large frontend applications using a feature-based architecture for better scalability and maintainability.",
+      "Enhanced skills in building accessible, responsive UIs using Shadcn UI and Tailwind CSS.",
+      "Strengthened knowledge of SEO-first frontend development using dynamic metadata and semantic HTML.",
+    ],
+  },
+
+  {
     title: "coachly",
     name: "Coachly",
     description: "A Video Live streaming platform",
