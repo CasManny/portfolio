@@ -241,7 +241,7 @@ export const AboutMe: React.FC = () => {
                 animate={{ scale: [1, 1.1, 1] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                2+
+                3
               </motion.div>
               <div className="text-sm text-gray-300">Years Experience</div>
             </motion.div>
