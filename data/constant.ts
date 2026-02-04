@@ -40,7 +40,7 @@ export const workExperience = [
   {
     image: "/full-blue-bg-small.png",
     title: "Tech Plus Plus",
-    role: "Frontend Engineer (Intern)",
+    role: "Frontend Engineer (Contract)",
     location: "Remote",
     year: "May 2025 - October 2025",
     responsibilities: [
@@ -54,7 +54,7 @@ export const workExperience = [
     title: "Kukeat - One Stop Shop for Everything Foodstuff",
     location: "Remote",
 
-    role: "Frontend Engineer Intern",
+    role: "Frontend Engineer (Contract)",
     year: "Dec 2024 - Feb 2025",
     responsibilities: [
       "Implemented SEO best practices including semantic HTML, meta tags, and structured data, boosting organic traffic by 22%.",
@@ -67,7 +67,7 @@ export const workExperience = [
     title: "CodeTribe",
     location: "Remote",
 
-    role: "Frontend Develoer",
+    role: "Frontend Develoer (Contract)",
     year: "July 2024 – Nov 2024",
     responsibilities: [
       "Built and optimized the frontend for 6+ client products, enhancing performance and user experience across e-commerce and SaaS platforms.",
