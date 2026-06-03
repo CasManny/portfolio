@@ -41,14 +41,6 @@ export const WorkExperience = () => {
             <Card className="p-6 border border-gray-100 rounded-xl shadow-sm bg-white">
               <div className="flex flex-col text-left md:flex-row md:justify-between md:items-center mb-4">
                 <div className="flex gap-5 items-center">
-                  <Avatar className="border hidden sm:flex border-gray-200">
-                    <AvatarImage
-                      src={item.image}
-                      alt={item.title}
-                      className="size-12 object-cover"
-                    />
-                    <AvatarFallback>{item.title[0]}</AvatarFallback>
-                  </Avatar>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900">
                       {item.title}

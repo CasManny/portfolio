@@ -39,41 +39,41 @@ export const education = [
 export const workExperience = [
   {
     image: "/full-blue-bg-small.png",
-    title: "Tech Plus Plus",
-    role: "Frontend Engineer (Contract)",
+    title: "Padisquare",
+    role: "Frontend Engineer",
     location: "Remote",
-    year: "May 2025 - October 2025",
+    year: "January 2026 - April 2026",
     responsibilities: [
-      "Engineered responsive UI components using React, Next.js, and Tailwind CSS, improving page load speed by 28% and reducing layout shift across devices.",
-      "Integrated REST APIs to deliver dynamic content and interactive features, boosting user engagement and session duration by 28%.",
-      "Translated 15+ Figma mockups - into pixel-perfect, accessible interfaces, increasing design-to-code accuracy and reducing QA revisions by 40%.",
+      "Developed and launched Padisquare’s landing page using React, Next.js, and Tailwind CSS, increasing visitor-to-signup conversion rate by 32% within the first month.",
+      "Built and optimized the admin dashboard for verified vendors, reducing onboarding time by 45% and improving vendor management efficiency.",
+      "Implemented responsive, accessible UI components that cut mobile bounce rates by 27% and boosted average session duration by 22%.",
+      "Collaborated with product and design teams to translate 10+ Figma mockups into pixel-perfect interfaces, reducing QA feedback cycles by 35%.",
     ],
   },
+  {
+    image: "/full-blue-bg-small.png",
+    title: "Qkly",
+    role: "Frontend Engineer",
+    location: "Remote",
+    year: "May 2025 - November 2025",
+    responsibilities: [
+      "Architected and deployed Qkly’s ecommerce platform frontend with React and Next.js, reducing page load times by 34% and improving Lighthouse performance scores across devices.",
+      "Implemented advanced state management and caching strategies, cutting API call redundancy by 40% and enhancing real-time product updates for vendors.",
+      "Optimized checkout and payment flows with secure integrations, increasing successful transaction rates by 26% and reducing cart abandonment by 19%.",
+      "Built scalable, reusable UI components and vendor dashboards, accelerating feature delivery by 35% and improving developer onboarding efficiency.",
+    ],
+  },
+
   {
     image: "/kukeat.png",
     title: "Kukeat - One Stop Shop for Everything Foodstuff",
     location: "Remote",
-
-    role: "Frontend Engineer (Contract)",
+    role: "Frontend Engineer",
     year: "Dec 2024 - Feb 2025",
     responsibilities: [
       "Implemented SEO best practices including semantic HTML, meta tags, and structured data, boosting organic traffic by 22%.",
       "Redesigned the homepage UI improving layout clarity and call-to-action visibility, which led to a 15% increase in conversion rates.",
       "Integrated Vercel Analytics and Speed Insights to monitor Core Web Vitals and user behavior, driving a 35% improvement in page load speed and reducing bounce rates by 28% through targeted UI optimizations.",
-    ],
-  },
-  {
-    image: "/codettribe.jpg",
-    title: "CodeTribe",
-    location: "Remote",
-
-    role: "Frontend Develoer (Contract)",
-    year: "July 2024 – Nov 2024",
-    responsibilities: [
-      "Built and optimized the frontend for 6+ client products, enhancing performance and user experience across e-commerce and SaaS platforms.",
-      "Implemented SEO best practices and accessibility standards, boosting organic traffic by 22% and improving overall customer satisfaction.",
-      "Redesigned key product interfaces, increasing conversion rates by 15% and improving user retention by 18%.",
-      "Integrated Vercel Analytics to monitor Core Web Vitals, achieving a 35% faster load speed and reducing bounce rates by 28%.",
     ],
   },
 ];
